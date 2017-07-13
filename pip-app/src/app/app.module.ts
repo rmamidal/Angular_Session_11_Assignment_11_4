@@ -4,12 +4,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { MovieComponent } from './Component/movie.component';
+import { SearchPipe } from "./Pipe/search.pipe"
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MovieComponent
+    MovieComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,
